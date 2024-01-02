@@ -63,3 +63,14 @@ text_default.addEventListener('click', function(e){
     text_default.classList.toggle('clicked_btn')
    }
 })
+
+
+// Color picker
+
+
+color_picker.addEventListener('input', function() {
+    // Get the selected color value
+    var selectedColor = color_picker.value;
+    text_box.style.color = selectedColor;
+});
+
