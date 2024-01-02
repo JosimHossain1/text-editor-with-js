@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* Start */
+
+.wrapper{
+    background: rgb(113, 113, 232);
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
