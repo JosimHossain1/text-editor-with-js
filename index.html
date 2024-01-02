@@ -13,32 +13,36 @@
         <div class="container wrapper">
             <div class="menu">
                 <div class="add-style">
-                    <i class="fa-solid fa-bold"></i>
-                    <i class="fa-solid fa-italic"></i>
-                    <i class="fa-solid fa-underline"></i>
+                    <i class="fa-solid fa-bold" id="bold_btn"></i>
+                    <i class="fa-solid fa-italic" id="italic_btn"></i>
+                    <i class="fa-solid fa-underline" id="underline_btn"></i>
                 </div>
                 <div class="add-alignment">
-                    <i class="fa-solid fa-align-left"></i>
-                    <i class="fa-solid fa-align-center"></i>
-                    <i class="fa-solid fa-align-right"></i>
-                    <i class="fa-solid fa-align-justify"></i>
+                    <i class="fa-solid fa-align-left" id="text_left"></i>
+                    <i class="fa-solid fa-align-center" id="text_center"></i>
+                    <i class="fa-solid fa-align-right" id="text_right"></i>
+                    <i class="fa-solid fa-align-justify" id="text_default"></i>
                 </div>
                 <div class="">
                     <i class="fa-solid fa-list"></i>
                 </div>
                 <div class="add-color">
-                    <i class="fa-solid fa-font"></i>
-                    <i class="fa-regular fa-copy"></i>
-                    
-                        <input type="color">
-                    
+                    <i class="fa-solid fa-font" id="font_incress"></i>
+                    <i class="fa-solid fa-font" id="font_decress"></i>
+                    <i class="fa-regular fa-copy"  id="clipboard"></i>
+                    <input type="color" id="color_picker">
                 </div>
             </div>
+
             <div class="content">
-                <textarea id="text-box" cols="30" rows="15" ></textarea>
+                <textarea id="text_box"></textarea value="">
             </div>
+
         </div>
     </main>
     <!-- End -->
+
+    <!-- JS Connect -->  
+    <script src="/main.js"></script>
 </body>
 </html>
