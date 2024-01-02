@@ -38,3 +38,28 @@ underline_btn.addEventListener('click', function(){
 })
 
 
+
+text_center.addEventListener('click', function(e){
+   if(text_box.value == ''){
+    alert("Write something!")
+   }else{
+    text_box.classList.toggle('text-center');
+    text_center.classList.toggle('clicked_btn')
+   }
+})
+text_right.addEventListener('click', function(e){
+   if(text_box.value == ''){
+    alert("Write something!")
+   }else{
+    text_box.classList.toggle('text-right');
+    text_right.classList.toggle('clicked_btn')
+   }
+})
+text_default.addEventListener('click', function(e){
+   if(text_box.value == ''){
+    alert("Write something!")
+   }else{
+    text_box.classList.toggle('text-default');
+    text_default.classList.toggle('clicked_btn')
+   }
+})
